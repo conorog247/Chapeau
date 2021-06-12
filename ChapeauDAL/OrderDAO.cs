@@ -234,9 +234,31 @@ namespace ChapeauDAL
             string Comment = (string)reader["comment"];
             OrderStatus Order_Status = (OrderStatus)reader["status"];
             DateTime Order_Time = (DateTime)reader["datetime"];
-            Table table = (Table)reader["table_number"];
+            Table tableNumber = (Table)reader["table_number"];
 
-            return new OrderItem(OrderItemID, Order_Number, MenuItemID, Quantity, Comment, Order_Status, table, Order_Time);
+            return new OrderItem(OrderItemID, Order_Number, MenuItemID, Quantity, Comment, Order_Status, tableNumber, Order_Time);
+        }
+
+        List<OrderItem> ReadOrderItems(DataTable dataTable)
+        {
+            List<OrderItem> orderItems = new List<OrderItem>();
+
+            foreach (DataRow dr in dataTable.Rows)
+            {
+                OrderItem orderItem = new OrderItem()
+                {
+                    OrderItemID = (int)dr["order_item_id"],
+                    Order_Number = (int)dr["order_number"],
+                    MenuItemID = (MenuItem)dr["menu_item_id"],
+                    Quantity = (int)dr["quantity"],
+                    Comment = (string)dr["comment"],
+                    Order_Status = (OrderStatus)dr["order_status"],
+                    Order_Time = (DateTime)dr["datetime"],
+                    Table_Number = (Table)dr["table"],
+                };
+            orderItems.Add(orderItem);
+            }
+            return orderItems;
         }
 
         public List<OrderItem> GetOrderItems(DataTable dataTable)
@@ -257,7 +279,7 @@ namespace ChapeauDAL
                     Comment = (string)dr["comment"],
                     Order_Status = (OrderStatus)dr["status"],
                     Order_Time = (DateTime)dr["datetime"],
-                    Table = (Table)dr["table_number"]
+                    Table_Number = (Table)dr["table_number"]
                 };
                 orderItems.Add(orderitem);
             }
@@ -274,17 +296,10 @@ namespace ChapeauDAL
         public List<OrderItem> GetAllOrderItems()
         {
             OpenConnection();
-            SqlCommand queryGetAllOrderItems = new SqlCommand("SELECT order_item_id, order_number, menu_item_id, quantity, comment, status, datetime, table_number FROM [Order_Item] WHERE order_item_id = '{OrderItem.order_item_id} ");
-            SqlDataReader reader = queryGetAllOrderItems.ExecuteReader();
-            List<OrderItem> orderItems = new List<OrderItem>();
-            while (reader.Read())
-            {
-                OrderItem orderItem = ReadOrderItem(reader);
-                orderItems.Add(orderItem);
-            }
-            reader.Close();
+            string query =("SELECT * FROM [Order_Item]");
+            SqlParameter[] sqlParameters = new SqlParameter[0];
             CloseConnection();
-            return orderItems;
+            return ReadOrderItems(ExecuteSelectQuery(query, sqlParameters));
         }
 
         //add order item.

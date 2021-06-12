@@ -34,3 +34,12 @@ C:\Users\pablo\Desktop\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel
 C:\Users\pablo\Desktop\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.dll
 C:\Users\pablo\Desktop\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.pdb
 C:\Users\pablo\Desktop\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauModel\bin\Debug\netcoreapp3.1\ChapeauModel.deps.json
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauModel\bin\Debug\netcoreapp3.1\ChapeauModel.dll
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauModel\bin\Debug\netcoreapp3.1\ChapeauModel.pdb
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.AssemblyInfo.cs
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.dll
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.pdb

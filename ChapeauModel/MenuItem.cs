@@ -22,5 +22,9 @@ namespace ChapeauModel
             Menu_ID = menu_id;
             Menu_Item_Category = menu_item_category;
         }
+
+        public MenuItem()
+        {
+        }
     }
 }

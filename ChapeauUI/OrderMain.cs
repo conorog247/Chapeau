@@ -43,12 +43,13 @@ namespace ChapeauUI
                 ListViewItem lv1 = new ListViewItem(menuitem.Menu_Item_ID.ToString());
                 lv1.SubItems.Add(menuitem.Menu_Item_Name);
                 lv1.SubItems.Add(menuitem.Menu_Item_Stock.ToString());
+                lv1.SubItems.Add(menuitem.Menu_Item_Price.ToString());
+                lv1.SubItems.Add(menuitem.Menu_Item_Vat.ToString());
+                lv1.SubItems.Add(menuitem.Menu_Item_Category.ToString());
                 listViewMenus.Items.Add(lv1);
             }
             listViewMenus.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
             listViewMenus.AutoResizeColumns(ColumnHeaderAutoResizeStyle.HeaderSize);
-
-            //loads order items into list view on right
 
             List<OrderItem> orderItems = orderService.GetAllOrderItems();
             listViewOrder.View = View.Details;
@@ -57,11 +58,10 @@ namespace ChapeauUI
             {
                 ListViewItem lv2 = new ListViewItem(orderItem.OrderItemID.ToString());
                 lv2.SubItems.Add(orderItem.Order_Number.ToString());
-                lv2.SubItems.Add(orderItem.MenuItemID.ToString());
                 lv2.SubItems.Add(orderItem.Quantity.ToString());
                 lv2.SubItems.Add(orderItem.Comment);
                 lv2.SubItems.Add(orderItem.Order_Status.ToString());
-                lv2.SubItems.Add(orderItem.Table.ToString());
+                lv2.SubItems.Add(orderItem.Table_Number.ToString());
                 lv2.SubItems.Add(orderItem.Order_Time.ToString());
             }
 

@@ -54,3 +54,17 @@ C:\Users\pablo\Desktop\Chapeau\ChapeauLogic\obj\Debug\netcoreapp3.1\ChapeauLogic
 C:\Users\pablo\Desktop\Chapeau\ChapeauLogic\obj\Debug\netcoreapp3.1\ChapeauLogic.dll
 C:\Users\pablo\Desktop\Chapeau\ChapeauLogic\obj\Debug\netcoreapp3.1\ChapeauLogic.pdb
 C:\Users\pablo\Desktop\Chapeau\ChapeauLogic\obj\Debug\netcoreapp3.1\ChapeauLogic.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauLogic\bin\Debug\netcoreapp3.1\ChapeauLogic.deps.json
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauLogic\bin\Debug\netcoreapp3.1\ChapeauLogic.dll
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauLogic\bin\Debug\netcoreapp3.1\ChapeauLogic.pdb
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauLogic\bin\Debug\netcoreapp3.1\ChapeauDAL.dll
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauLogic\bin\Debug\netcoreapp3.1\ChapeauModel.dll
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauLogic\bin\Debug\netcoreapp3.1\ChapeauDAL.pdb
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauLogic\bin\Debug\netcoreapp3.1\ChapeauModel.pdb
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauLogic\obj\Debug\netcoreapp3.1\ChapeauLogic.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauLogic\obj\Debug\netcoreapp3.1\ChapeauLogic.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauLogic\obj\Debug\netcoreapp3.1\ChapeauLogic.AssemblyInfo.cs
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauLogic\obj\Debug\netcoreapp3.1\ChapeauLogic.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauLogic\obj\Debug\netcoreapp3.1\ChapeauLogic.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauLogic\obj\Debug\netcoreapp3.1\ChapeauLogic.dll
+\\Mac\Home\Documents\GitHub\Chapeau\ChapeauLogic\obj\Debug\netcoreapp3.1\ChapeauLogic.pdb

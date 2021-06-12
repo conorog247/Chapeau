@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Projects\\Year 1\\Term4\\ChapeauFINAL\\ChapeauDAL\\ChapeauDAL.csproj": {}
+    "\\\\Mac\\Home\\Documents\\GitHub\\Chapeau\\ChapeauDAL\\ChapeauDAL.csproj": {}
   },
   "projects": {
-    "Z:\\Projects\\Year 1\\Term4\\ChapeauFINAL\\ChapeauDAL\\ChapeauDAL.csproj": {
+    "\\\\Mac\\Home\\Documents\\GitHub\\Chapeau\\ChapeauDAL\\ChapeauDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Projects\\Year 1\\Term4\\ChapeauFINAL\\ChapeauDAL\\ChapeauDAL.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Documents\\GitHub\\Chapeau\\ChapeauDAL\\ChapeauDAL.csproj",
         "projectName": "ChapeauDAL",
-        "projectPath": "Z:\\Projects\\Year 1\\Term4\\ChapeauFINAL\\ChapeauDAL\\ChapeauDAL.csproj",
+        "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\Chapeau\\ChapeauDAL\\ChapeauDAL.csproj",
         "packagesPath": "C:\\Users\\Conor\\.nuget\\packages\\",
-        "outputPath": "Z:\\Projects\\Year 1\\Term4\\ChapeauFINAL\\ChapeauDAL\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Documents\\GitHub\\Chapeau\\ChapeauDAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Conor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "Z:\\Projects\\Year 1\\Term4\\ChapeauFINAL\\ChapeauModel\\ChapeauModel.csproj": {
-                "projectPath": "Z:\\Projects\\Year 1\\Term4\\ChapeauFINAL\\ChapeauModel\\ChapeauModel.csproj"
+              "\\\\Mac\\Home\\Documents\\GitHub\\Chapeau\\ChapeauModel\\ChapeauModel.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\Chapeau\\ChapeauModel\\ChapeauModel.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "Z:\\Projects\\Year 1\\Term4\\ChapeauFINAL\\ChapeauModel\\ChapeauModel.csproj": {
+    "\\\\Mac\\Home\\Documents\\GitHub\\Chapeau\\ChapeauModel\\ChapeauModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Projects\\Year 1\\Term4\\ChapeauFINAL\\ChapeauModel\\ChapeauModel.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Documents\\GitHub\\Chapeau\\ChapeauModel\\ChapeauModel.csproj",
         "projectName": "ChapeauModel",
-        "projectPath": "Z:\\Projects\\Year 1\\Term4\\ChapeauFINAL\\ChapeauModel\\ChapeauModel.csproj",
+        "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\Chapeau\\ChapeauModel\\ChapeauModel.csproj",
         "packagesPath": "C:\\Users\\Conor\\.nuget\\packages\\",
-        "outputPath": "Z:\\Projects\\Year 1\\Term4\\ChapeauFINAL\\ChapeauModel\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Documents\\GitHub\\Chapeau\\ChapeauModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Conor\\AppData\\Roaming\\NuGet\\NuGet.Config",
